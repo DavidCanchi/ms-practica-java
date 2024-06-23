@@ -20,6 +20,12 @@ public class HelloController {
         return "Hello, java developers";
     }
     
+    //ENDPOINT3
+    @GetMapping("/hello3") 
+    public String hello3() {
+        return "Hola, Desarrolladores de Java";
+    }
+    
     //CREAR NUEVOS ENDPOINTS DE SALUDOS Y PROBARLOS
     
 }
